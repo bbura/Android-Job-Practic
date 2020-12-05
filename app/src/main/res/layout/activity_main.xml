@@ -1,0 +1,48 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radiouGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/noNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None" />
+
+        <RadioButton
+            android:id="@+id/anyNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Any" />
+
+        <RadioButton
+            android:id="@+id/wifiNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wifi" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Schedule Job"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Cancel Jobs"/>
+
+</LinearLayout>
